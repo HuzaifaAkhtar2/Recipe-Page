@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+> 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
+
+## Colors
+
+- White: hsl(0, 0%, 100%)
+
+- Stone 100: hsl(30, 54%, 90%)
+- Stone 150: hsl(30, 18%, 87%)
+- Stone 600: hsl(30, 10%, 34%)
+- Stone 900: hsl(24, 5%, 18%)
+
+- Brown 800: hsl(14, 45%, 36%)
+
+- Rose 800: hsl(332, 51%, 32%)
+- Rose 50: hsl(330, 100%, 98%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Fonts
+
+- Family: [Young Serif](https://fonts.google.com/specimen/Young+Serif)
+- Weights: 400
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 600, 700
+
+> 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma. The design file for this challenge also includes a design system and tablet layout to help you build a more accurate solution faster. */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(30, 10%, 34%);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    background-color: hsl(30, 54%, 90%);
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    padding: 35px;
+    margin: 65px;
+    border-radius: 15px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.omelette-img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.main-heading {
+    font-family: 'Young Serif';
+    margin-bottom: 20px;
+}
+
+.description {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.preparation-time {
+    background-color: hsl(330, 100%, 98%);
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.preparation-time h3 {
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 20px;
+}
+
+.preparation-time li {
+    margin-bottom: 15px;
+    margin-left: 20px;
+    color: hsl(14, 45%, 36%);
+}
+
+.preparation-time b {
+    margin-bottom: 15px;
+    margin-left: 20px;
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredients h2 {
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 20px;
+    font-family: 'Young Serif';
+}
+
+.ingredients li {
+    margin-bottom: 15px;
+    margin-left: 20px;
+    /* color: hsl(14, 45%, 36%); */
+}
+
+.ingredients ul {
+    margin-bottom: 15px;
+    color: hsl(14, 45%, 36%);
+}
+
+.instructions h2 {
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: 'Young Serif';
+}
+
+.instructions {
+    margin-bottom: 15px;
+    color: hsl(14, 45%, 36%);
+}
+
+.instructions li {
+    margin-bottom: 15px;
+    margin-left: 20px;
+    /* color: hsl(14, 45%, 36%); */
+}
+
+.nutrition h2 {
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: 'Young Serif';
+}
+
+.quantity {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+    /* margin-right: 15vw; */
+}
+
+.nutrition-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 20px;
+}
